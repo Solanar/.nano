@@ -3,6 +3,7 @@
 syntax "html" "\.htm[l]?$"
 color brightblue start="<" end=">"
 color red "&[^;[[:space:]]]*;"
-color yellow "".*"|qq\|.*\|"
+color yellow "".*"|'.*'"
 color red "(alt|bgcolor|height|href|label|longdesc|name|onclick|onfocus|onload|onmouseover|size|span|src|style|target|type|value|width|rel|id|class|for)="
+color green start="<!--" end="-->"
 
